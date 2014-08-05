@@ -1,8 +1,8 @@
 <?php
 
-  $d = getenv("database_endpoint");
+ $d = array('environment' => getenv("database_endpoint"));
 
-  echo $d
+  echo json_encode($d)
   
     $d = getenv("CHRIS");
 
